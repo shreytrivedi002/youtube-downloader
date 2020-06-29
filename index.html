@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>UTube Downloader - Download YouTube Videos</title>
+    <meta name="description" content="Y2Mate The fastest free YouTube video downloader. Download and save YouTube video for free in 720p, 1080p, HD, and FullHD quality. Y2Mate Downloader" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/find.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" crossorigin="anonymous">
+    <!-- Meta -->
+    <link rel="shortcut icon" type="image/x-icon" href="/n.jpg">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="topnav navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><i
+                    class="fas fa-arrow-circle-down"></i> <strong itemprop="name"><span id="he" >mp4</span> UTube Downloader</strong> </a>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" style="enable-background:new 0 0 1440 126;" xml:space="preserve">
+        <path class="bg-info" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+      </svg>
+
+    <section id="main" class="jumbotron mb-0 pb-3 bg-info position-relative">
+        <div class="container-fluid text-white h-100">
+            <div class="align-items-center text-center pl-lg-5">
+                <h1 class="mb-3 mt-3 main_title">UTube Downloader - Save YouTube Videos</h1>
+                <div class="row justify-content-center" id="m-form">
+                    <div class="col-12 col-md-10 col-lg-6">
+                        <search-form input-placeholder="Paste your video link here" start-button="Start">
+                            <!-- <form id="main-form" action="" method="post" class="card card-sm"> -->
+                            <div class="card-body row no-gutters align-items-center search_form">
+                                <div class="col">
+                                    <div id="div_id_url" class="form-group">
+                                        <div><input type="text" name="url" placeholder="Paste your video link here" autofocus="autofocus" required="required" id="id_url" class="textinput textInput form-control ui-autocomplete-input" autocomplete="off"></div>
+                                    </div>
+                                </div>
+                                <div class="col-auto"><button type="submit" id="search" class="btn btn-lg btn-success">Convert <span class="the" >mp4</span>
+                                <i class="fas fa-arrow-right"></i></button></div>
+                            </div>
+                            <!-- </form> -->
+                        </search-form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <svg style="-webkit-transform:rotate(-180deg); -moz-transform:rotate(-180deg); -o-transform:rotate(-180deg); transform:rotate(-180deg); margin-top: -1px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" viewbox="0 0 1440 126" style="enable-background:new 0 0 1440 126;" xml:space="preserve">
+      <path class="bg-info" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"/>
+</svg>
+
+    <div id="spin"></div>
+
+    <div class="container" id="msg" align='center' hidden>
+
+        <span><b>Video Id.</b> <span id="vid"></span></span>
+        <div>
+            <iframe id="thumb" src="" width="50%" style="border: 3px solid black;"></iframe>
+        </div>
+
+
+        <a id="btn" target="_blank" href=''>DOWNLOAD <span class="the" >mp4</span></a>
+
+
+
+    </div>
+
+
+    <section class="row col-lg-8 col-md-10 col-12 offset-lg-2 offset-md-1 mt-5 mb-5 align-items-center b-instruction">
+        <h2 class="col-12 text-center mb-5 h-instruction">How to download YouTube video ?</h2>
+        <a class="l-instruction text-center" href="#instruction">How to download YouTube video online?</a>
+        <div class="col-md-4" id="instruction">
+            <div class="media">
+                <div class="iconbox iconmedium rounded-circle text-info mr-4">
+                    <i class="fas fa-copy"></i>
+                </div>
+                <div class="media-body">
+                    <h5>Copy Video URL</h5>
+                    <p class="text-muted">Copy your video URL of YouTube Video that you wish to download.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media">
+                <div class="iconbox iconmedium rounded-circle text-purple mr-4">
+                    <i class="fas fa-mouse-pointer"></i>
+                </div>
+                <div class="media-body">
+                    <h5>Paste in search box Provided</h5>
+                    <p class="text-muted">Paste YouTube video URL in the search box and click 'Start'.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media">
+                <div class="iconbox iconmedium rounded-circle text-info mr-4">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="media-body">
+                    <h5>Download Video</h5>
+                    <p class="text-muted">Click the 'Download' button to start downloading the file.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row col-lg-8 col-md-10 col-12 offset-lg-2 offset-md-1 mt-5 mb-5 align-items-center">
+        <div class="col-12">
+            <h2>The Fastest YouTube converter online</h2>
+            <p>UTube Downloader is a great tool for downloading videos from YouTube! You can download any video, and it is completely free! and will remain Free life long...</p>
+
+            <!-- <div class="row justify-content-center"><a id="change2" class="btn btn-lg btn-success mt-4">YouTube to MP4</a>
+            </div> -->
+            <!-- <div class="row justify-content-center"><a id="change" class="btn btn-lg btn-success mt-4">YouTube to MP3</a>
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+    <!-- light footer -->
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" style="enable-background:new 0 0 1440 126;" xml:space="preserve">
+      <path class="bg-black" d="M685.6,38.8C418.7-11.1,170.2,9.9,0,30v96h1440V30C1252.7,52.2,1010,99.4,685.6,38.8z"></path>
+    </svg>
+
+
+    <footer class="bg-black pb-5 pt-4">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12">
+                    <span class="d-block mt-3 text-gray">made with L<i class="fas fa-heart text-danger"></i>VE & <a target="_blank" href="/" style="color: 
+                    orange;">edufusion.me</a>.</span><br>
+                    <span><div class="handa" style="position: relative; float: right; ">
+                        <span style="position: relative; float: left;color: orange;">
+                            <span>&#169;</span>shreytrivedi <span>  </span>
+                    </span>
+                    <a target="_blank" href="https://www.facebook.com/shreytrivedi002/" class="fab fa-facebook"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/shrey-trivedi-4a3270178/" class="fab fa-linkedin"></a>
+                    <a target="_blank" href="https://www.instagram.com/trivedi.shrey/" class="fab fa-instagram"></a>
+                </div>
+                </span>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

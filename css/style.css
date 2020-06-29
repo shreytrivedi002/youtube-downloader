@@ -1,0 +1,34 @@
+.form-control-borderless {
+    border: none;
+    margin-bottom: -15px !important;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.search_form {
+    padding: 0.25rem !important;
+}
+
+div#div_id_url {
+    margin-bottom: 0px !important;
+}
+
+input#id_url {
+    height: 50px;
+    border: none;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_title {
+        font-size: 1.5rem !important;
+    }
+}

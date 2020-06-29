@@ -1,0 +1,46 @@
+.find-section {
+    background-color: #502c6c !important
+}
+
+.find-section .find-block {
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.find-block>.video {
+    flex: 30%;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.video .img {
+    width: 95%;
+}
+
+.video .video-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-desc .title {
+    min-height: 75px;
+}
+
+.video-desc .btn {
+    width: content-box;
+    flex-grow: 1;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .find-block .video {
+        flex: 30%;
+        margin: 10px;
+        align-items: center;
+    }
+}
